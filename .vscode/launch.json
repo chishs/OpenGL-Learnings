@@ -8,12 +8,12 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceRoot}/Win_Build/engine",
+            "program": "${workspaceRoot}/Win_Build/compiled_program",
             "preLaunchTask": "Build",
             "args": [
             ],
             "windows": {
-                "program": "${workspaceRoot}/Builds/Win_Build/engine",
+                "program": "${workspaceRoot}/Builds/Win_Build/compiled_program",
                 "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe"
             },
             "stopAtEntry": false,

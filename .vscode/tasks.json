@@ -10,7 +10,7 @@
 				"--std=c++17",
 				"${workspaceRoot}\\src\\*",
 				"-o",
-				"${workspaceRoot}\\Builds\\Win_Build\\engine",
+				"${workspaceRoot}\\Builds\\Win_Build\\compiled_program",
 				"-I",
 				"${workspaceRoot}\\headers",
 				"-I",
