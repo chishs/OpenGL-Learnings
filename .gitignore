@@ -9,3 +9,6 @@
 .history/
 
 *.dll
+
+Builds/*
+Builds/Win_Build/*
