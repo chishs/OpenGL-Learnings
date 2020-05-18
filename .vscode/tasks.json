@@ -1,0 +1,49 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Build",
+			"command": "C:\\MinGW\\bin\\g++.exe",
+			"args": [
+				"-g",
+				"--std=c++17",
+				"${workspaceRoot}\\src\\*",
+				"-o",
+				"${workspaceRoot}\\Builds\\Win_Build\\engine",
+				"-I",
+				"${workspaceRoot}\\headers",
+				"-I",
+				"C:\\Users\\sajie\\Documents\\External Libs\\GLEW\\include",
+				"-I",
+				"C:\\Users\\sajie\\Documents\\External Libs\\GLFW\\include",
+				"-I",
+				"C:\\Users\\sajie\\Documents\\External Libs\\GLM",
+				"-L",
+				"C:\\Users\\sajie\\Downloads\\External Libs\\GLFW\\lib-mingw",
+				"-l",
+				"glfw3dll",
+				"-l",
+				"glfw3",
+				"-l",
+				"gdi32",
+				"-l",
+				"opengl32",
+				"-L",
+				"C:\\Users\\sajie\\Documents\\External Libs\\GLEW\\lib\\Release\\Win32",
+				"-l",
+				"glew32",
+			],
+			"options": {
+				"cwd": "C:\\MinGW\\bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
